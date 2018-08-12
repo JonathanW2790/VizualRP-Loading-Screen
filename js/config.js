@@ -18,11 +18,11 @@ var l_centerLogo = false;
 
 // Display current map and gamemode?
 // 'true' or 'false'
-var l_displayMapGamemode = true;
+var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "VizualRP";
+var l_serverName = "";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -52,9 +52,9 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"vizualrp-loadingscreen-2",
-	"vizualrp-loadingscreen-3",
-	"vizualrp-loadingscreen-4",
+	"gm_flatgrass.jpg",
+	"touhou01.jpg",
+	"touhou02.jpg",
 	"touhou03.jpg"
 ];
 
