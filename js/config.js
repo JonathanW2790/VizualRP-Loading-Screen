@@ -10,7 +10,7 @@
 // Leave it blank to use text instead
 // (Put the files in the images folder)
 // (You can also use external URL)
-var l_serverImage = "logo.png";
+var l_serverImage = "";
 
 // Center logo?
 // 'true' or 'false'
@@ -22,7 +22,7 @@ var l_displayMapGamemode = true;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "sleekLoad 2";
+var l_serverName = "VizualRP";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -30,32 +30,12 @@ var l_serverName = "sleekLoad 2";
 var l_bgVideo = false;
 
 // Default available videos:
-// "aurora.webm"
-// "bluefall.webm"
-// "bluetilefloor.webm"
-// "bluewhitecircles.webm"
-// "bokehlens.webm"
-// "cleanbokeh.webm"
-// "coldnight.webm"
-// "colorfulburst.webm"
-// "dancingstars.webm"
-// "dropsflares.webm"
-// "focusorangebokeh.webm"
-// "glimmering.webm"
-// "glowingrings.webm"
-// "greencircles.webm"
-// "hues.webm"
-// "inthedeep.webm"
-// "modernflourish.webm"
-// "orangeaura.webm"
-// "warminside.webm"
-// "yellowgreen.webm"
 //
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format 
 // (Place the videos in the backgrounds/videos folder)
 // (You can also use external URL)
-var l_background = "bluefall.webm";
+var l_background = "";
 
 // (Image-background only)
 // Enable map-based background image?
@@ -72,8 +52,9 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
+	"vizualrp-loadingscreen-2",
+	"vizualrp-loadingscreen-3",
+	"vizualrp-loadingscreen-4",
 	"touhou03.jpg"
 ];
 
@@ -85,7 +66,7 @@ var l_bgImagesRandom = true;
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 8000;
 
 // (Image-background only)
 // Image background fade velocity
@@ -98,7 +79,7 @@ var l_bgOverlay = true;
 
 // Background darkening amount
 // 0 for none (0%), 100 for pitch black (100%)
-var l_bgDarkening = 50;
+var l_bgDarkening = 15;
 
 // Play music during the loading screen?
 // 'true' or 'false'
@@ -106,7 +87,7 @@ var l_music = true;
 
 // Display current music name?
 // 'true' or 'false'
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 // Music playlist
 // Add as many youtube ids/urls or ogg files you want
@@ -125,7 +106,7 @@ var l_musicRandom = true;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 15;
+var l_musicVolume = 5;
 
 // Enable custom messages?
 // 'true' or 'false'
@@ -135,7 +116,8 @@ var l_messagesEnabled = true;
 var l_messages = [
 	"Enjoy the server",
 	"Thanks for joining us!",
-	"Did you know these backgrounds and music are from Touhou?",
+	"The first time might take a while.",
+	"So, how was your day?",
 ];
 
 // Random message order?
