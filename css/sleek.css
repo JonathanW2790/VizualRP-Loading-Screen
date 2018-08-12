@@ -85,15 +85,15 @@ video {
 #loading {
 	display: inline-block;
 	width: 80%;
-	height: 50px;
+	height: 4px;
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 2px;
 }
 
 #loading-progress {
-	height: 100%; width: 0%;
+	height: 50%; width: 0%;
 	background-color: white;
-	border-radius: 48px;
+	border-radius: 2px;
 }
 
 #messages {
