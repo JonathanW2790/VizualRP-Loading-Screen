@@ -22,7 +22,7 @@ var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "";
+var l_serverName = " ";
 
 // Use a video for the background?
 // Otherwise it will use images
